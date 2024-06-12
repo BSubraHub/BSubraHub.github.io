@@ -28,25 +28,42 @@ This project aims to demonstrate the integration of Amazon API Gateway with AWS 
 - **Technologies**: AWS, Python, CloudFormation, AWS Lambda
 - **Description**: This project, I build a simple serverless application that exposes RESTful APIs through Amazon API Gateway. These APIs will be backed by AWS Lambda functions responsible for processing incoming requests and generating appropriate responses. Additionally, I have implemented a custom authorizer to authenticate and authorize requests before they are routed to the Lambda functions.
 
-### [Project 2: E-commerce Web Application](https://github.com/yourusername/project2)
-An e-commerce platform built with Django and React, providing a seamless shopping experience with features like product listings, cart management, and secure payments.
+### [Project 2: AWS control tower management AFT](https://github.com/BSubraHub/aws-control-tower-management-aft)
+This repository contains configuration for the AWS Account Factory for Terraform module. The module creates a pipeline of AWS services that allow you to create and customize AWS Control Tower accounts through Terraform configuration.
 
-- **Technologies**: Django, React, PostgreSQL, Docker
-- **Description**: Developed a full-stack web application that handles user authentication, product management, and order processing.
+- **Technologies**: Terraform, AWS
+- **Description**: The "aws-control-tower-management-aft" repository serves as a centralized hub for managing the Account Factory for Terraform (AFT) module configuration within a cloud infrastructure setup. This repository houses crucial configuration files, scripts, and documentation essential for the proper functioning and management of the AFT module.
 
-### [Project 3: Machine Learning Model for Predictive Analytics](https://github.com/yourusername/project3)
-A machine learning project focused on building predictive models to forecast sales using historical data.
+### [Project 3: AWS control tower account request](https://github.com/BsubraHub/aws-control-tower-aft-account-request)
+This repository contains example configuration to kick off new account provisioning using AFT or add existing account.
 
-- **Technologies**: Python, Scikit-learn, Pandas, Jupyter
-- **Description**: Implemented various regression models to predict future sales and evaluated their performance using metrics like RMSE and MAE.
+- **Technologies**: Terraform, AWS, Python, Shell script
+- **Description**: This repository contains boilerplate configuration for defining account requests to use with the Account Factory for Terraform module. The AFT pipeline requires the structure used and the included submodule to define a DynamoDB table item with your account specifications.
+
+### [Project 4: AWS control tower account customisations](https://github.com/BsubraHub/aws-control-tower-aft-account-customisations)
+This repository contains boilerplate configuration for defining account customizations to use with the Account Factory for Terraform module.
+
+- **Technologies**: Terraform, AWS, Python, Shell script
+- **Description**: This repo stores the Terraform and API helpers for the Account Customizations. Account Customizations are used to customize all provisioned accounts with customer defined resources. The resources can be created through Terraform or through Python, leveraging the API helpers. The customization run is parameterized at runtime.
+
+### [Project 5: AWS control tower gloabl account customisations](https://github.com/BsubraHub/aws-control-tower-aft-global-account-customisation)
+This repository contains boilerplate configuration for defining global customizations to use with the Account Factory for Terraform module.
+
+- **Technologies**: Terraform, AWS, Python, Shell script
+- **Description**: This repo stores the Terraform and API helpers for the Global Customizations. Global Customizations are used to customize all provisioned accounts with customer defined resources. The resources can be created through Terraform or through Python, leveraging the API helpers. The customization run is parameterized at runtime.
+
+### [Project 5: AWS control tower AFT with github actions](https://github.com/BsubraHub/aws-control-tower-aft-with-github-actions)
+This repository contains configuration for the AWS Account Factory for Terraform module. The module creates a pipeline of AWS services that allow you to create and customize AWS Control Tower accounts through Terraform configuration. The deployment is orchestrated via continuous integration and continuous deployment (CI/CD) pipelines using GitHub Actions.
+
+- **Technologies**: Terraform, AWS, Python, Shell script, github actions
+- **Description**: This repository contains configuration for the AWS Account Factory for Terraform module. The module creates a pipeline of AWS services that allow you to create and customize AWS Control Tower accounts through Terraform configuration. The deployment is orchestrated via continuous integration and continuous deployment (CI/CD) pipelines using GitHub Actions.
 
 ## Contact
 
 Feel free to reach out to me for any inquiries or collaborations:
 
-- **Email**: [your.email@example.com]
-- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **Twitter**: [Twitter Handle](https://twitter.com/yourhandle)
+- **Email**: [bharathkumar.subramani@outlook.com]
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/bharathkumar-subramani)
 
 ---
 
