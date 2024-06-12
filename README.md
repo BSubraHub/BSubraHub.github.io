@@ -1,34 +1,32 @@
-# BSubraHub.github.io
-
 # Bharathkumar Subramani's Portfolio
 
-Welcome to my GitHub portfolio! I'm Bharathkumar Subramani, a passionate and dedicated software developer specializing in backend development and data engineering. Below, you'll find a showcase of my projects, skills, and contact information.
+Welcome to my GitHub portfolio! I'm Bharathkumar Subramani, a passionate and dedicated software/Cloud developer specializing in backend development and Cloud engineering. Below, you'll find a showcase of my projects, skills, and contact information.
 
 ## About Me
 
-I am a software engineer with a strong background in developing scalable applications and data processing pipelines. I enjoy solving complex problems and continuously learning about new technologies.
+I am a versatile engineer with a dual expertise in software and cloud engineering. With a robust background in developing scalable applications and data processing pipelines, I thrive on tackling complex problems and leveraging cutting-edge technologies to drive innovation.
 
 - **Name**: Bharathkumar Subramani
-- **Location**: [Your City, Country]
-- **Email**: [your.email@example.com]
-- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **Website**: [Your Personal Website](https://www.yourwebsite.com)
+- **Location**: [Mississauga, Ontario, Canada]
+- **Email**: [bharathkumar.subramani@outlook.com]
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/bharathkumar-subramani)
+- **Website**: [Your Personal Website](https://bsubrahub.github.io/)
 
 ## Skills
 
-- **Programming Languages**: Python, Java, JavaScript, PHP
-- **Frameworks**: Django, Flask, Spring Boot, React
-- **Databases**: MySQL, PostgreSQL, MongoDB
-- **Tools & Platforms**: AWS, Docker, Git, Kubernetes
-- **Other**: Data Engineering, Machine Learning, DevOps
+- **Programming Languages**: Python, Golang, Shellscript
+- **Frameworks**: Flask, 
+- **Databases**: MySQL, DynamoDB, MongoDB
+- **Tools & Platforms**: AWS, Docker, Git, Kubernetes, terraform, github actions, jenkins
+- **Other**: AWS DevOps
 
 ## Projects
 
-### [Project 1: Data Processing Pipeline](https://github.com/yourusername/project1)
-A robust data processing pipeline built with Apache Spark and AWS services to handle large-scale data transformations and analytics.
+### [Project 1: Api Gateway Lambda Integration](https://github.com/BSubraHub/api_gateway_lambda_integration_using_serverless)
+This project aims to demonstrate the integration of Amazon API Gateway with AWS Lambda functions using a custom authorizer. The Serverless Application Model (SAM) is utilized to define and deploy the resources required for this serverless architecture.
 
-- **Technologies**: Apache Spark, AWS S3, AWS EMR, Python
-- **Description**: This project involves the extraction, transformation, and loading (ETL) of large datasets to derive meaningful insights and generate reports.
+- **Technologies**: AWS, Python, CloudFormation, AWS Lambda
+- **Description**: This project, I build a simple serverless application that exposes RESTful APIs through Amazon API Gateway. These APIs will be backed by AWS Lambda functions responsible for processing incoming requests and generating appropriate responses. Additionally, I have implemented a custom authorizer to authenticate and authorize requests before they are routed to the Lambda functions.
 
 ### [Project 2: E-commerce Web Application](https://github.com/yourusername/project2)
 An e-commerce platform built with Django and React, providing a seamless shopping experience with features like product listings, cart management, and secure payments.
